@@ -1,0 +1,136 @@
+.ag-theme-balham .ag-header-cell:after,
+.ag-theme-balham .ag-header-group-cell:after {
+  height: 100%;
+  top: 0;
+  width: 0;
+}
+
+.ag-theme-balham .ag-row {
+  border-color: transparent;
+  border-width: 0;
+}
+
+.ag-header {
+  border-bottom: 1px solid lightgray;
+}
+
+.ag-header-row .ag-header-group-cell-no-group {
+  border-right: 1px solid lightgray;
+}
+
+
+.ag-theme-balham .ag-header-cell,
+.ag-theme-balham .ag-header-group-cell {
+  border-right-color: transparent;
+  border-right-width: 0;
+}
+
+.ag-theme-balham .ag-ltr .ag-header-cell,
+.ag-theme-balham .ag-ltr .ag-header-group-cell {
+  border-right-color: transparent;
+  border-right-width: 0;
+}
+
+.ag-theme-balham .ag-header-row:not(:first-child) .ag-header-cell,
+.ag-theme-balham .ag-header-row:not(:first-child) .ag-header-group-cell.ag-header-group-cell-with-group {
+  border-top-color: transparent;
+  border-top-width: 0;
+}
+
+.ag-theme-balham .ag-header-cell,
+.ag-theme-balham .ag-header-group-cell {
+  padding: 0;
+}
+
+.ag-center-cols-viewport {
+  overflow: hidden;
+}
+
+.ag-center-mobile-cols-viewport {
+  overflow: auto;
+}
+
+
+.ag-theme-balham .ag-cell {
+  border: none;
+}
+
+.ag-theme-balham .ag-ltr .ag-cell {
+  border: none;
+}
+
+/* 普通的cell  */
+.ag-theme-balham .ag-cell:not(.cell-span) {
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+
+/* 跨行 */
+.ag-theme-balham .ag-cell.cell-span.cont-span {
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+
+.ag-theme-balham .ag-cell.cell-span:not(.cont-span) {
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+
+.ag-theme-balham .cont-span {
+  /* color: white; */
+}
+
+/* 重置外层border */
+.ag-theme-balham .ag-root-wrapper {
+  border: none;
+}
+
+
+
+.ag-theme-balham .ag-row .cell-group {
+  /* background: white; */
+  ;
+}
+
+/* .ag-theme-balham .ag-cell:first-child{
+  border-right-color: lightgrey;
+} */
+
+.custom-tooltip {
+  position: absolute;
+  overflow: visible;
+  pointer-events: none;
+  transition: opacity 1s;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  padding: 6px; */
+}
+
+.custom-tooltip.ag-tooltip-hiding {
+  opacity: 0;
+}
+
+.custom-tooltip p {
+  margin: 5px;
+  white-space: nowrap;
+}
+
+.ag-theme-balham .ag-ltr .ag-has-focus .ag-cell.ag-cell-focus:not(.ag-cell-range-selected) {
+  border-color: lightgray;
+  border-top: transparent;
+  border-left: transparent;
+}
+
+.ag-theme-balham .ag-header {
+  background-color: inherit;
+  pointer-events: none;
+}
+.ag-overlay-no-rows-center{
+  display: none;
+}
